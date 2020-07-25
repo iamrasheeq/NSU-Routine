@@ -62,7 +62,7 @@ for i in range(1, 7):
             table[i][c] = blank
         c += 1
 
-print(tabulate(table, tablefmt='html'))
+print("Successfull")
 # print(tabulate(table))
 
 with open("web/header.html") as f:
