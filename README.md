@@ -20,3 +20,4 @@ course = [
 # Output
 Just run the **.py** file and the go to **index.html** in the **web** folder to show your result.
 
+![alt text](https://github.com/iamrasheeq/NSU-Routine/blob/master/web/nsuRoutine.png)
