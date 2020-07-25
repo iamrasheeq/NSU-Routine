@@ -62,7 +62,7 @@ for i in range(1, 7):
             table[i][c] = blank
         c += 1
 
-print("Successful")
+
 # print(tabulate(table))
 
 with open("web/header.html") as f:
@@ -83,7 +83,8 @@ with open("web/header.html") as f:
         with open("web/footer.html") as f1:
             for line in f1:
                 fileMain.write(line)
-
+                
+print("Successful")
 ff.close()
 f1.close()
 fileMain.close()
