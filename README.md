@@ -7,7 +7,7 @@ install **tabulate** library for python. You can do it using **pip**.
 ```pip install tabulate```
 
 ## Modifying Course
-You can add or remove courses in the **list "course"** from routine.py file.(Make sure you follow the format)
+You can add or remove courses in the list **"course"** from routine.py file.(Make sure you follow the format)
 ```
 course = [
     ["MAT250", "ST", '4:20 - 5:50'],
