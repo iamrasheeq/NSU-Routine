@@ -1,0 +1,19 @@
+/*#body{*/
+/*    background-color: #3B4A6A  ;*/
+
+/*}*/
+.container{
+    font-family: "Arial";
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 25px;
+
+}
+
+td{
+    /*color: #0E1E3D  ;*/
+    height:85px;
+    width:85px;
+    font-size: 18px;
+}
