@@ -1,5 +1,8 @@
 # import tabulate  library
 # pip install tabulate
+
+import webbrowser
+import os
 from tabulate import tabulate
 
 course = [
@@ -18,7 +21,7 @@ table = [["NSU", '8:00 - 9:40', '9:40 - 11:10', '11:20 - 12:50', '1:00 - 2:30', 
          ["WED", '8:00 - 9:40', '9:40 - 11:10', '11:20 - 12:50', '1:00 - 2:30', '2:40 - 4:10', '4:20 - 5:50'],
          ["THU", '8:00 - 9:40', '9:40 - 11:10', '11:20 - 12:50', '1:00 - 2:30', '2:40 - 4:10', '4:20 - 5:50'],
          ]
-blank = "-x-"
+blank = "__"
 
 for k in range(0, len(course)):
     if course[k][1] == "ST":
@@ -84,11 +87,13 @@ with open("web/header.html") as f:
             for line in f1:
                 fileMain.write(line)
                 
-print("Successful")
+print("successful")
 ff.close()
 f1.close()
 fileMain.close()
 f.close()
+
+webbrowser.open('file://' + os.path.realpath('web/index.html'))
 
 # with open("body.html", mode="w") as writeFile:
 #     print(tabulate(table, tablefmt='html'), file=writeFile)
