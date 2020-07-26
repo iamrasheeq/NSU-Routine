@@ -18,6 +18,6 @@ course = [
 ]
 ```
 # Output
-Just run the **.py** file and the go to **index.html** in the **web** folder to show your result.
+Just run the **.py** file and it will show your result in the **browser**.
 
 ![alt text](https://github.com/iamrasheeq/NSU-Routine/blob/master/web/nsuRoutine.png)
