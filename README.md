@@ -1,5 +1,5 @@
 # NSU Routine
-Simple Routine bulder for NSU students.
+Simple Routine builder for NSU students.
 
 ## Before You Dig
 install **tabulate** library for python. You can do it using **pip**.
